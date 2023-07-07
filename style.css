@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.form-img{
+    width: 80%;
+    height: 300px;
+    background:url(./photos/form-img.avif) no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.Form{
+    width: 80%;
+    margin: 0px auto;
+    background-color: rgb(26, 19, 67);
+    /* box-shadow: 2px 2px 8px 5px  #EDF1FF; */
+}
+form{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: auto;
+    font-weight: normal;
+}
+
+@media all and (max-width: 480px) {
+    /* CSS rules for smartphones */
+    .form-img{
+        max-width: 80%;
+        height: 200px;
+        background-size: 380px 200px;
+    }
+    
+  }
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* CSS rules for tablets */
+    .form-img{
+        width: 80%;
+        height: 250px;
+        background-size: 100% 100%;
+    }
+
+    
+    
+    
+  }  
